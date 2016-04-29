@@ -1,0 +1,7 @@
+GET /shortkeys/new # a form takes your url
+POST /shortkeys # create a new short key, show you
+GET /shortkeys/:shortkey # details of what the key is, and where it goes
+/r/:shortkey
+
+
+Must expire in 5 minutes.
